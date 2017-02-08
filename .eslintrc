@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-restricted-properties": [2, {
+      "object": "disallowedObjectName",
+      "property": "disallowedPropertyName"
+    }]
+  }
+}
